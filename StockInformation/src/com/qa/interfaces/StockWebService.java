@@ -10,6 +10,6 @@ package com.qa.interfaces;
  * @author Administrator
  */
 public interface StockWebService {
-    boolean authenticate(String name, String password);
+    boolean authenticate(int userId, String password);
     String getStockInfo(String code);
 }
